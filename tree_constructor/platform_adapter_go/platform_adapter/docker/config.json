@@ -1,0 +1,7 @@
+{
+  "base_url": "unix:///var/run/docker.sock",
+  "handlers_dir": "/root/ReqBench/docker_handlers",
+  "docker_platform_dir": "/root/ReqBench/src/platform_adapter/docker",
+  "tmp_dir": "/root/ReqBench/tmp",
+  "csv_path": "./latency.csv"
+}

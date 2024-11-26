@@ -1,0 +1,801 @@
+{
+  "packages": [],
+  "direct": [],
+  "split_generation": 0,
+  "children": [
+    {
+      "packages": [
+        "pandas==2.1.0",
+        "six==1.16.0",
+        "python-dateutil==2.8.2",
+        "numpy==1.25.2",
+        "pytz==2023.3.post1",
+        "tzdata==2023.3"
+      ],
+      "direct": [
+        "pandas==2.1.0"
+      ],
+      "split_generation": 1,
+      "children": [
+        {
+          "packages": [
+            "cycler==0.11.0",
+            "fonttools==4.42.1",
+            "packaging==23.1",
+            "kiwisolver==1.4.5",
+            "matplotlib==3.8.0",
+            "pillow==10.0.0",
+            "pyparsing==3.1.1",
+            "contourpy==1.1.0"
+          ],
+          "direct": [
+            "matplotlib==3.8.0"
+          ],
+          "split_generation": 8,
+          "children": [
+            {
+              "packages": [
+                "threadpoolctl==3.2.0",
+                "joblib==1.3.2",
+                "scipy==1.11.2",
+                "scikit-learn==1.3.0"
+              ],
+              "direct": [
+                "scikit-learn==1.3.0"
+              ],
+              "split_generation": 32,
+              "children": [],
+              "test_count": 2
+            }
+          ],
+          "test_count": 7
+        },
+        {
+          "packages": [
+            "google-crc32c==1.5.0"
+          ],
+          "direct": [
+            "google-crc32c==1.5.0"
+          ],
+          "split_generation": 17,
+          "children": [],
+          "test_count": 27
+        },
+        {
+          "packages": [
+            "threadpoolctl==3.2.0",
+            "joblib==1.3.2",
+            "scipy==1.11.2",
+            "scikit-learn==1.3.0"
+          ],
+          "direct": [
+            "scikit-learn==1.3.0"
+          ],
+          "split_generation": 31,
+          "children": [],
+          "test_count": 3
+        },
+        {
+          "packages": [
+            "cycler==0.11.0",
+            "fonttools==4.42.1",
+            "packaging==23.1",
+            "kiwisolver==1.4.5",
+            "matplotlib==3.8.0",
+            "pyparsing==3.1.1",
+            "pillow==10.0.1",
+            "contourpy==1.1.0"
+          ],
+          "direct": [
+            "matplotlib==3.8.0"
+          ],
+          "split_generation": 39,
+          "children": [],
+          "test_count": 0
+        }
+      ],
+      "test_count": 26
+    },
+    {
+      "packages": [
+        "python-dateutil==2.8.2",
+        "cycler==0.11.0",
+        "fonttools==4.42.1",
+        "packaging==23.1",
+        "six==1.16.0",
+        "kiwisolver==1.4.5",
+        "numpy==1.25.2",
+        "matplotlib==3.8.0",
+        "pillow==10.0.0",
+        "pyparsing==3.1.1",
+        "contourpy==1.1.0"
+      ],
+      "direct": [
+        "matplotlib==3.8.0"
+      ],
+      "split_generation": 2,
+      "children": [
+        {
+          "packages": [
+            "threadpoolctl==3.2.0",
+            "joblib==1.3.2",
+            "scipy==1.11.2",
+            "scikit-learn==1.3.0"
+          ],
+          "direct": [
+            "scikit-learn==1.3.0"
+          ],
+          "split_generation": 20,
+          "children": [
+            {
+              "packages": [
+                "nest-asyncio==1.5.7",
+                "jupyter-events==0.7.0",
+                "webcolors==1.13",
+                "nbconvert==7.8.0",
+                "python-json-logger==2.0.7",
+                "typing-extensions==4.7.1",
+                "cffi==1.15.1",
+                "rfc3986-validator==0.1.1",
+                "traitlets==5.10.0",
+                "fqdn==1.5.1",
+                "arrow==1.2.3",
+                "executing==1.2.0",
+                "jupyterlab-pygments==0.2.2",
+                "decorator==5.1.1",
+                "isoduration==20.11.0",
+                "jsonschema==4.19.0",
+                "pycparser==2.21",
+                "jupyterlab-widgets==3.0.9",
+                "psutil==5.9.5",
+                "jupyter==1.0.0",
+                "stack-data==0.6.2",
+                "charset-normalizer==3.2.0",
+                "comm==0.1.4",
+                "webencodings==0.5.1",
+                "terminado==0.17.1",
+                "pygments==2.16.1",
+                "matplotlib-inline==0.1.6",
+                "widgetsnbextension==4.0.9",
+                "defusedxml==0.7.1",
+                "ptyprocess==0.7.0",
+                "rpds-py==0.10.3",
+                "pandocfilters==1.5.0",
+                "qtconsole==5.4.4",
+                "ipython==8.15.0",
+                "asttokens==2.4.0",
+                "urllib3==2.0.4",
+                "exceptiongroup==1.1.3",
+                "pure-eval==0.2.2",
+                "tinycss2==1.2.1",
+                "websocket-client==1.6.3",
+                "pyyaml==6.0.1",
+                "idna==3.4",
+                "jedi==0.19.0",
+                "ipykernel==6.25.2",
+                "jupyterlab==4.0.6",
+                "prompt-toolkit==3.0.39",
+                "soupsieve==2.5",
+                "platformdirs==3.10.0",
+                "jupyter-console==6.6.3",
+                "bleach==6.0.0",
+                "pickleshare==0.7.5",
+                "prometheus-client==0.17.1",
+                "wcwidth==0.2.6",
+                "notebook-shim==0.2.3",
+                "debugpy==1.8.0",
+                "beautifulsoup4==4.12.2",
+                "ipython-genutils==0.2.0",
+                "markupsafe==2.1.3",
+                "fastjsonschema==2.18.0",
+                "ipywidgets==8.1.1",
+                "notebook==7.0.3",
+                "jupyter-server==2.7.3",
+                "argon2-cffi-bindings==21.2.0",
+                "overrides==7.4.0",
+                "jupyterlab-server==2.25.0",
+                "send2trash==1.8.2",
+                "jsonschema-specifications==2023.7.1",
+                "attrs==23.1.0",
+                "parso==0.8.3",
+                "jupyter-client==8.3.1",
+                "nbclient==0.8.0",
+                "backcall==0.2.0",
+                "async-lru==2.0.4",
+                "pyzmq==25.1.1",
+                "tornado==6.3.3",
+                "nbformat==5.9.2",
+                "pexpect==4.8.0",
+                "argon2-cffi==23.1.0",
+                "tomli==2.0.1",
+                "certifi==2023.7.22",
+                "mistune==3.0.1",
+                "anyio==4.0.0",
+                "json5==0.9.14",
+                "babel==2.12.1",
+                "sniffio==1.3.0",
+                "rfc3339-validator==0.1.4",
+                "jinja2==3.1.2",
+                "jupyter-core==5.3.1",
+                "jupyter-lsp==2.2.0",
+                "requests==2.31.0",
+                "qtpy==2.4.0",
+                "uri-template==1.3.0",
+                "jupyter-server-terminals==0.4.4",
+                "jsonpointer==2.4",
+                "referencing==0.30.2"
+              ],
+              "direct": [
+                "jupyter==1.0.0"
+              ],
+              "split_generation": 38,
+              "children": [],
+              "test_count": 0
+            }
+          ],
+          "test_count": 1
+        },
+        {
+          "packages": [
+            "mpmath==1.3.0",
+            "sympy==1.12"
+          ],
+          "direct": [
+            "sympy==1.12"
+          ],
+          "split_generation": 28,
+          "children": [],
+          "test_count": 1
+        }
+      ],
+      "test_count": 17
+    },
+    {
+      "packages": [
+        "keyring==23.11.0",
+        "idna==3.4",
+        "importlib-metadata==5.0.0",
+        "rfc3986==2.0.0",
+        "requests==2.28.1",
+        "secretstorage==3.3.3",
+        "cffi==1.15.1",
+        "jeepney==0.8.0",
+        "more-itertools==9.0.0",
+        "pygments==2.13.0",
+        "jaraco-classes==3.2.3",
+        "rich==12.6.0",
+        "twine==4.0.1",
+        "requests-toolbelt==0.10.1",
+        "cryptography==38.0.3",
+        "readme-renderer==37.3",
+        "charset-normalizer==2.1.1",
+        "commonmark==0.9.1",
+        "urllib3==1.26.12",
+        "certifi==2022.9.24",
+        "pkginfo==1.8.3",
+        "zipp==3.10.0",
+        "pycparser==2.21"
+      ],
+      "direct": [
+        "twine==4.0.1"
+      ],
+      "split_generation": 3,
+      "children": [
+        {
+          "packages": [
+            "distlib==0.3.6",
+            "pyparsing==3.0.9",
+            "nox==2022.8.7",
+            "py==1.11.0",
+            "virtualenv==20.16.7",
+            "argcomplete==2.0.0",
+            "filelock==3.8.0",
+            "colorlog==6.7.0",
+            "platformdirs==2.5.4",
+            "packaging==21.3"
+          ],
+          "direct": [
+            "nox==2022.8.7"
+          ],
+          "split_generation": 4,
+          "children": [
+            {
+              "packages": [
+                "google-crc32c==1.5.0"
+              ],
+              "direct": [
+                "google-crc32c==1.5.0"
+              ],
+              "split_generation": 7,
+              "children": [
+                {
+                  "packages": [
+                    "webencodings==0.5.1",
+                    "six==1.16.0",
+                    "bleach==5.0.1"
+                  ],
+                  "direct": [
+                    "bleach==5.0.1"
+                  ],
+                  "split_generation": 13,
+                  "children": [
+                    {
+                      "packages": [
+                        "jinja2==3.1.2",
+                        "markupsafe==2.1.1"
+                      ],
+                      "direct": [
+                        "jinja2==3.1.2"
+                      ],
+                      "split_generation": 15,
+                      "children": [
+                        {
+                          "packages": [
+                            "attrs==22.1.0"
+                          ],
+                          "direct": [
+                            "attrs==22.1.0"
+                          ],
+                          "split_generation": 22,
+                          "children": [
+                            {
+                              "packages": [
+                                "google-cloud-storage==2.6.0",
+                                "rsa==4.9",
+                                "google-auth==2.14.1",
+                                "google-resumable-media==2.4.0",
+                                "gcp-docuploader==0.6.4",
+                                "googleapis-common-protos==1.57.0",
+                                "protobuf==3.20.3",
+                                "pyasn1==0.4.8",
+                                "google-cloud-core==2.3.2",
+                                "click==8.0.4",
+                                "cachetools==5.2.0",
+                                "google-api-core==2.10.2",
+                                "pyasn1-modules==0.2.8"
+                              ],
+                              "direct": [
+                                "gcp-docuploader==0.6.4"
+                              ],
+                              "split_generation": 23,
+                              "children": [],
+                              "test_count": 68
+                            }
+                          ],
+                          "test_count": 0
+                        }
+                      ],
+                      "test_count": 0
+                    }
+                  ],
+                  "test_count": 0
+                }
+              ],
+              "test_count": 0
+            }
+          ],
+          "test_count": 0
+        }
+      ],
+      "test_count": 0
+    },
+    {
+      "packages": [
+        "numpy==1.25.2"
+      ],
+      "direct": [
+        "numpy==1.25.2"
+      ],
+      "split_generation": 5,
+      "children": [
+        {
+          "packages": [
+            "threadpoolctl==3.2.0",
+            "joblib==1.3.2",
+            "scipy==1.11.2",
+            "scikit-learn==1.3.0"
+          ],
+          "direct": [
+            "scikit-learn==1.3.0"
+          ],
+          "split_generation": 11,
+          "children": [],
+          "test_count": 1
+        }
+      ],
+      "test_count": 54
+    },
+    {
+      "packages": [
+        "markupsafe==2.1.3",
+        "jinja2==3.1.2"
+      ],
+      "direct": [
+        "jinja2==3.1.2"
+      ],
+      "split_generation": 6,
+      "children": [
+        {
+          "packages": [
+            "itsdangerous==2.1.2",
+            "flask==2.3.3",
+            "werkzeug==2.3.7",
+            "blinker==1.6.2",
+            "click==8.1.7"
+          ],
+          "direct": [
+            "flask==2.3.3"
+          ],
+          "split_generation": 9,
+          "children": [],
+          "test_count": 37
+        },
+        {
+          "packages": [
+            "snowballstemmer==2.2.0"
+          ],
+          "direct": [
+            "snowballstemmer==2.2.0"
+          ],
+          "split_generation": 12,
+          "children": [
+            {
+              "packages": [
+                "jupyter-client==8.3.1",
+                "nbclient==0.8.0",
+                "pyzmq==25.1.1",
+                "tornado==6.3.3",
+                "nbformat==5.9.2",
+                "nbconvert==7.8.0",
+                "webencodings==0.5.1",
+                "mistune==3.0.1",
+                "pygments==2.16.1",
+                "soupsieve==2.5",
+                "platformdirs==3.10.0",
+                "bleach==6.0.0",
+                "defusedxml==0.7.1",
+                "traitlets==5.10.0",
+                "rpds-py==0.10.3",
+                "six==1.16.0",
+                "packaging==23.1",
+                "jupyter-core==5.3.1",
+                "pandocfilters==1.5.0",
+                "beautifulsoup4==4.12.2",
+                "fastjsonschema==2.18.0",
+                "jupyterlab-pygments==0.2.2",
+                "python-dateutil==2.8.2",
+                "jsonschema==4.19.0",
+                "jsonschema-specifications==2023.7.1",
+                "attrs==23.1.0",
+                "referencing==0.30.2",
+                "tinycss2==1.2.1"
+              ],
+              "direct": [
+                "nbconvert==7.8.0"
+              ],
+              "split_generation": 19,
+              "children": [
+                {
+                  "packages": [
+                    "pandas==2.1.0",
+                    "cycler==0.11.0",
+                    "fonttools==4.42.1",
+                    "kiwisolver==1.4.5",
+                    "matplotlib==3.8.0",
+                    "pytz==2023.3.post1",
+                    "pillow==10.0.0",
+                    "pyparsing==3.1.1",
+                    "contourpy==1.1.0",
+                    "tzdata==2023.3",
+                    "numpy==1.24.4",
+                    "seaborn==0.12.2"
+                  ],
+                  "direct": [
+                    "seaborn==0.12.2"
+                  ],
+                  "split_generation": 26,
+                  "children": [],
+                  "test_count": 0
+                }
+              ],
+              "test_count": 5
+            },
+            {
+              "packages": [
+                "certifi==2023.7.22",
+                "docutils==0.20.1",
+                "packaging==23.1",
+                "sphinxcontrib-qthelp==1.0.6",
+                "alabaster==0.7.13",
+                "sphinx==7.2.6",
+                "sphinxcontrib-jsmath==1.0.1",
+                "idna==3.4",
+                "urllib3==2.0.4",
+                "sphinxcontrib-serializinghtml==1.1.9",
+                "babel==2.12.1",
+                "pygments==2.16.1",
+                "requests==2.31.0",
+                "charset-normalizer==3.2.0",
+                "sphinxcontrib-devhelp==1.0.5",
+                "sphinxcontrib-htmlhelp==2.0.4",
+                "sphinxcontrib-applehelp==1.0.7",
+                "imagesize==1.4.1"
+              ],
+              "direct": [
+                "sphinx==7.2.6"
+              ],
+              "split_generation": 35,
+              "children": [],
+              "test_count": 49
+            },
+            {
+              "packages": [
+                "certifi==2023.7.22",
+                "packaging==23.1",
+                "sphinxcontrib-qthelp==1.0.6",
+                "alabaster==0.7.13",
+                "sphinx==7.2.6",
+                "sphinxcontrib-jsmath==1.0.1",
+                "idna==3.4",
+                "urllib3==2.0.4",
+                "sphinxcontrib-serializinghtml==1.1.9",
+                "docutils==0.18.1",
+                "babel==2.12.1",
+                "pygments==2.16.1",
+                "requests==2.31.0",
+                "charset-normalizer==3.2.0",
+                "sphinxcontrib-devhelp==1.0.5",
+                "sphinxcontrib-htmlhelp==2.0.4",
+                "sphinxcontrib-applehelp==1.0.7",
+                "imagesize==1.4.1"
+              ],
+              "direct": [
+                "sphinx==7.2.6"
+              ],
+              "split_generation": 37,
+              "children": [],
+              "test_count": 49
+            }
+          ],
+          "test_count": 11
+        },
+        {
+          "packages": [
+            "flask==2.1.0",
+            "werkzeug==2.3.7",
+            "itsdangerous==2.1.2",
+            "click==8.1.7"
+          ],
+          "direct": [
+            "flask==2.1.0"
+          ],
+          "split_generation": 34,
+          "children": [],
+          "test_count": 13
+        }
+      ],
+      "test_count": 33
+    },
+    {
+      "packages": [
+        "google-crc32c==1.3.0"
+      ],
+      "direct": [
+        "google-crc32c==1.3.0"
+      ],
+      "split_generation": 10,
+      "children": [
+        {
+          "packages": [
+            "zipp==3.6.0",
+            "cryptography==38.0.1",
+            "jeepney==0.7.1",
+            "keyring==23.4.1",
+            "importlib-metadata==4.8.3",
+            "pycparser==2.21",
+            "secretstorage==3.3.3",
+            "cffi==1.15.1"
+          ],
+          "direct": [
+            "keyring==23.4.1"
+          ],
+          "split_generation": 18,
+          "children": [
+            {
+              "packages": [
+                "pyparsing==3.0.9",
+                "packaging==21.3"
+              ],
+              "direct": [
+                "packaging==21.3"
+              ],
+              "split_generation": 21,
+              "children": [
+                {
+                  "packages": [
+                    "markupsafe==2.0.1",
+                    "jinja2==3.0.3"
+                  ],
+                  "direct": [
+                    "jinja2==3.0.3"
+                  ],
+                  "split_generation": 24,
+                  "children": [
+                    {
+                      "packages": [
+                        "gcp-docuploader==0.6.3",
+                        "idna==3.4",
+                        "google-resumable-media==2.3.3",
+                        "google-cloud-storage==2.0.0",
+                        "requests==2.27.1",
+                        "googleapis-common-protos==1.56.3",
+                        "click==8.0.4",
+                        "colorlog==6.7.0",
+                        "pyasn1-modules==0.2.8",
+                        "google-auth==2.11.0",
+                        "six==1.16.0",
+                        "rsa==4.9",
+                        "google-cloud-core==2.3.1",
+                        "protobuf==3.19.5",
+                        "charset-normalizer==2.0.12",
+                        "google-api-core==2.8.2",
+                        "cachetools==4.2.4",
+                        "urllib3==1.26.12",
+                        "certifi==2022.9.24",
+                        "pyasn1==0.4.8"
+                      ],
+                      "direct": [
+                        "gcp-docuploader==0.6.3"
+                      ],
+                      "split_generation": 27,
+                      "children": [
+                        {
+                          "packages": [
+                            "attrs==22.1.0"
+                          ],
+                          "direct": [
+                            "attrs==22.1.0"
+                          ],
+                          "split_generation": 29,
+                          "children": [],
+                          "test_count": 75
+                        }
+                      ],
+                      "test_count": 0
+                    }
+                  ],
+                  "test_count": 0
+                }
+              ],
+              "test_count": 0
+            }
+          ],
+          "test_count": 0
+        }
+      ],
+      "test_count": 0
+    },
+    {
+      "packages": [
+        "tomli==2.0.1",
+        "packaging==23.1",
+        "exceptiongroup==1.1.3",
+        "iniconfig==2.0.0",
+        "pytest==7.4.2",
+        "pluggy==1.3.0"
+      ],
+      "direct": [
+        "pytest==7.4.2"
+      ],
+      "split_generation": 14,
+      "children": [],
+      "test_count": 19
+    },
+    {
+      "packages": [
+        "python-dateutil==2.8.2",
+        "cycler==0.11.0",
+        "fonttools==4.42.1",
+        "packaging==23.1",
+        "six==1.16.0",
+        "kiwisolver==1.4.5",
+        "matplotlib==3.8.0",
+        "pillow==10.0.0",
+        "pyparsing==3.1.1",
+        "numpy==1.24.4",
+        "contourpy==1.1.0"
+      ],
+      "direct": [
+        "matplotlib==3.8.0"
+      ],
+      "split_generation": 16,
+      "children": [
+        {
+          "packages": [
+            "pandas==2.1.0",
+            "tzdata==2023.3",
+            "pytz==2023.3.post1"
+          ],
+          "direct": [
+            "pandas==2.1.0"
+          ],
+          "split_generation": 33,
+          "children": [],
+          "test_count": 0
+        }
+      ],
+      "test_count": 0
+    },
+    {
+      "packages": [
+        "google-auth-httplib2==0.1.1",
+        "protobuf==4.24.3",
+        "certifi==2023.7.22",
+        "rsa==4.9",
+        "pyasn1-modules==0.3.0",
+        "googleapis-common-protos==1.60.0",
+        "google-api-python-client==2.99.0",
+        "idna==3.4",
+        "pyasn1==0.5.0",
+        "cachetools==5.3.1",
+        "pyparsing==3.1.1",
+        "uritemplate==4.1.1",
+        "google-auth==2.23.0",
+        "requests==2.31.0",
+        "google-api-core==2.11.1",
+        "charset-normalizer==3.2.0",
+        "httplib2==0.22.0",
+        "urllib3==1.26.16"
+      ],
+      "direct": [
+        "google-api-python-client==2.99.0"
+      ],
+      "split_generation": 25,
+      "children": [],
+      "test_count": 10
+    },
+    {
+      "packages": [
+        "mccabe==0.7.0",
+        "tomli==2.0.1",
+        "isort==5.12.0",
+        "tomlkit==0.12.1",
+        "dill==0.3.7",
+        "lazy-object-proxy==1.9.0",
+        "astroid==2.15.6",
+        "platformdirs==3.10.0",
+        "pylint==2.17.5",
+        "typing-extensions==4.7.1",
+        "wrapt==1.15.0"
+      ],
+      "direct": [
+        "pylint==2.17.5"
+      ],
+      "split_generation": 30,
+      "children": [],
+      "test_count": 1
+    },
+    {
+      "packages": [
+        "contourpy==1.1.1",
+        "python-dateutil==2.8.2",
+        "cycler==0.11.0",
+        "fonttools==4.42.1",
+        "packaging==23.1",
+        "six==1.16.0",
+        "kiwisolver==1.4.5",
+        "matplotlib==3.8.0",
+        "numpy==1.26.0",
+        "pyparsing==3.1.1",
+        "pillow==10.0.1"
+      ],
+      "direct": [
+        "matplotlib==3.8.0"
+      ],
+      "split_generation": 36,
+      "children": [],
+      "test_count": 0
+    }
+  ],
+  "test_count": 372
+}

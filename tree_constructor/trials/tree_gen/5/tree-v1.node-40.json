@@ -1,0 +1,462 @@
+{
+  "packages": [],
+  "direct": [],
+  "split_generation": 0,
+  "children": [
+    {
+      "packages": [
+        "numpy==1.25.2"
+      ],
+      "direct": [
+        "numpy==1.25.2"
+      ],
+      "split_generation": 1,
+      "children": [
+        {
+          "packages": [
+            "google-crc32c==1.5.0"
+          ],
+          "direct": [
+            "google-crc32c==1.5.0"
+          ],
+          "split_generation": 7,
+          "children": [
+            {
+              "packages": [
+                "grpcio==1.58.0"
+              ],
+              "direct": [
+                "grpcio==1.58.0"
+              ],
+              "split_generation": 32,
+              "children": [],
+              "test_count": 7
+            }
+          ],
+          "test_count": 16
+        },
+        {
+          "packages": [
+            "pyparsing==3.1.1"
+          ],
+          "direct": [
+            "pyparsing==3.1.1"
+          ],
+          "split_generation": 11,
+          "children": [],
+          "test_count": 24
+        },
+        {
+          "packages": [
+            "scipy==1.11.2"
+          ],
+          "direct": [
+            "scipy==1.11.2"
+          ],
+          "split_generation": 24,
+          "children": [],
+          "test_count": 32
+        }
+      ],
+      "test_count": 44
+    },
+    {
+      "packages": [
+        "google-crc32c==1.5.0"
+      ],
+      "direct": [
+        "google-crc32c==1.5.0"
+      ],
+      "split_generation": 2,
+      "children": [
+        {
+          "packages": [
+            "rfc3986==2.0.0"
+          ],
+          "direct": [
+            "rfc3986==2.0.0"
+          ],
+          "split_generation": 4,
+          "children": [
+            {
+              "packages": [
+                "pyparsing==3.0.9"
+              ],
+              "direct": [
+                "pyparsing==3.0.9"
+              ],
+              "split_generation": 5,
+              "children": [
+                {
+                  "packages": [
+                    "commonmark==0.9.1"
+                  ],
+                  "direct": [
+                    "commonmark==0.9.1"
+                  ],
+                  "split_generation": 8,
+                  "children": [
+                    {
+                      "packages": [
+                        "attrs==22.1.0"
+                      ],
+                      "direct": [
+                        "attrs==22.1.0"
+                      ],
+                      "split_generation": 10,
+                      "children": [
+                        {
+                          "packages": [
+                            "click==8.0.4"
+                          ],
+                          "direct": [
+                            "click==8.0.4"
+                          ],
+                          "split_generation": 13,
+                          "children": [
+                            {
+                              "packages": [
+                                "pyperclip==1.8.2"
+                              ],
+                              "direct": [
+                                "pyperclip==1.8.2"
+                              ],
+                              "split_generation": 18,
+                              "children": [
+                                {
+                                  "packages": [
+                                    "pycparser==2.21"
+                                  ],
+                                  "direct": [
+                                    "pycparser==2.21"
+                                  ],
+                                  "split_generation": 20,
+                                  "children": [
+                                    {
+                                      "packages": [
+                                        "pyjwt==2.6.0"
+                                      ],
+                                      "direct": [
+                                        "pyjwt==2.6.0"
+                                      ],
+                                      "split_generation": 23,
+                                      "children": [
+                                        {
+                                          "packages": [
+                                            "pkginfo==1.8.3"
+                                          ],
+                                          "direct": [
+                                            "pkginfo==1.8.3"
+                                          ],
+                                          "split_generation": 25,
+                                          "children": [
+                                            {
+                                              "packages": [
+                                                "platformdirs==2.5.4"
+                                              ],
+                                              "direct": [
+                                                "platformdirs==2.5.4"
+                                              ],
+                                              "split_generation": 27,
+                                              "children": [
+                                                {
+                                                  "packages": [
+                                                    "jeepney==0.8.0"
+                                                  ],
+                                                  "direct": [
+                                                    "jeepney==0.8.0"
+                                                  ],
+                                                  "split_generation": 28,
+                                                  "children": [
+                                                    {
+                                                      "packages": [
+                                                        "colorlog==6.7.0"
+                                                      ],
+                                                      "direct": [
+                                                        "colorlog==6.7.0"
+                                                      ],
+                                                      "split_generation": 33,
+                                                      "children": [
+                                                        {
+                                                          "packages": [
+                                                            "cffi==1.15.1"
+                                                          ],
+                                                          "direct": [
+                                                            "cffi==1.15.1"
+                                                          ],
+                                                          "split_generation": 35,
+                                                          "children": [
+                                                            {
+                                                              "packages": [
+                                                                "argcomplete==2.0.0"
+                                                              ],
+                                                              "direct": [
+                                                                "argcomplete==2.0.0"
+                                                              ],
+                                                              "split_generation": 39,
+                                                              "children": [],
+                                                              "test_count": 74
+                                                            }
+                                                          ],
+                                                          "test_count": 0
+                                                        }
+                                                      ],
+                                                      "test_count": 0
+                                                    }
+                                                  ],
+                                                  "test_count": 0
+                                                }
+                                              ],
+                                              "test_count": 0
+                                            }
+                                          ],
+                                          "test_count": 0
+                                        }
+                                      ],
+                                      "test_count": 0
+                                    }
+                                  ],
+                                  "test_count": 0
+                                }
+                              ],
+                              "test_count": 0
+                            }
+                          ],
+                          "test_count": 0
+                        }
+                      ],
+                      "test_count": 0
+                    }
+                  ],
+                  "test_count": 0
+                }
+              ],
+              "test_count": 0
+            }
+          ],
+          "test_count": 0
+        },
+        {
+          "packages": [
+            "grpcio==1.58.0"
+          ],
+          "direct": [
+            "grpcio==1.58.0"
+          ],
+          "split_generation": 26,
+          "children": [],
+          "test_count": 6
+        }
+      ],
+      "test_count": 5
+    },
+    {
+      "packages": [
+        "google-crc32c==1.3.0"
+      ],
+      "direct": [
+        "google-crc32c==1.3.0"
+      ],
+      "split_generation": 3,
+      "children": [
+        {
+          "packages": [
+            "pyparsing==3.0.9"
+          ],
+          "direct": [
+            "pyparsing==3.0.9"
+          ],
+          "split_generation": 9,
+          "children": [
+            {
+              "packages": [
+                "attrs==22.1.0"
+              ],
+              "direct": [
+                "attrs==22.1.0"
+              ],
+              "split_generation": 12,
+              "children": [
+                {
+                  "packages": [
+                    "click==8.0.4"
+                  ],
+                  "direct": [
+                    "click==8.0.4"
+                  ],
+                  "split_generation": 17,
+                  "children": [
+                    {
+                      "packages": [
+                        "pyperclip==1.8.2"
+                      ],
+                      "direct": [
+                        "pyperclip==1.8.2"
+                      ],
+                      "split_generation": 29,
+                      "children": [
+                        {
+                          "packages": [
+                            "pycparser==2.21"
+                          ],
+                          "direct": [
+                            "pycparser==2.21"
+                          ],
+                          "split_generation": 31,
+                          "children": [
+                            {
+                              "packages": [
+                                "pyjwt==2.4.0"
+                              ],
+                              "direct": [
+                                "pyjwt==2.4.0"
+                              ],
+                              "split_generation": 34,
+                              "children": [
+                                {
+                                  "packages": [
+                                    "jeepney==0.7.1"
+                                  ],
+                                  "direct": [
+                                    "jeepney==0.7.1"
+                                  ],
+                                  "split_generation": 38,
+                                  "children": [],
+                                  "test_count": 76
+                                }
+                              ],
+                              "test_count": 0
+                            }
+                          ],
+                          "test_count": 0
+                        }
+                      ],
+                      "test_count": 0
+                    }
+                  ],
+                  "test_count": 0
+                }
+              ],
+              "test_count": 0
+            }
+          ],
+          "test_count": 0
+        }
+      ],
+      "test_count": 0
+    },
+    {
+      "packages": [
+        "snowballstemmer==2.2.0"
+      ],
+      "direct": [
+        "snowballstemmer==2.2.0"
+      ],
+      "split_generation": 6,
+      "children": [
+        {
+          "packages": [
+            "babel==2.12.1"
+          ],
+          "direct": [
+            "babel==2.12.1"
+          ],
+          "split_generation": 16,
+          "children": [
+            {
+              "packages": [
+                "pyyaml==6.0.1"
+              ],
+              "direct": [
+                "pyyaml==6.0.1"
+              ],
+              "split_generation": 19,
+              "children": [],
+              "test_count": 29
+            },
+            {
+              "packages": [
+                "imagesize==1.4.1"
+              ],
+              "direct": [
+                "imagesize==1.4.1"
+              ],
+              "split_generation": 30,
+              "children": [],
+              "test_count": 111
+            }
+          ],
+          "test_count": 0
+        }
+      ],
+      "test_count": 0
+    },
+    {
+      "packages": [
+        "click==8.1.7"
+      ],
+      "direct": [
+        "click==8.1.7"
+      ],
+      "split_generation": 14,
+      "children": [],
+      "test_count": 80
+    },
+    {
+      "packages": [
+        "pyyaml==6.0.1"
+      ],
+      "direct": [
+        "pyyaml==6.0.1"
+      ],
+      "split_generation": 15,
+      "children": [],
+      "test_count": 30
+    },
+    {
+      "packages": [
+        "pyparsing==3.1.1"
+      ],
+      "direct": [
+        "pyparsing==3.1.1"
+      ],
+      "split_generation": 21,
+      "children": [],
+      "test_count": 19
+    },
+    {
+      "packages": [
+        "nose==1.3.7"
+      ],
+      "direct": [
+        "nose==1.3.7"
+      ],
+      "split_generation": 22,
+      "children": [],
+      "test_count": 6
+    },
+    {
+      "packages": [
+        "pluggy==1.3.0"
+      ],
+      "direct": [
+        "pluggy==1.3.0"
+      ],
+      "split_generation": 36,
+      "children": [],
+      "test_count": 29
+    },
+    {
+      "packages": [
+        "numpy==1.24.4"
+      ],
+      "direct": [
+        "numpy==1.24.4"
+      ],
+      "split_generation": 37,
+      "children": [],
+      "test_count": 1
+    }
+  ],
+  "test_count": 292
+}

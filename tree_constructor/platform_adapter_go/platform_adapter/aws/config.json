@@ -1,0 +1,7 @@
+{
+    "lambda_execution_role_arn": "",
+    "tmp_path": ".tmp",
+    "region": "us-east-1",
+    "workload_path": "/root/ReqBench/workloads_5.json",
+    "csv_name": "./aws_latency.csv"
+}

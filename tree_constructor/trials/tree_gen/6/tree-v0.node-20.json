@@ -1,0 +1,234 @@
+{
+  "packages": [],
+  "direct": [],
+  "split_generation": 0,
+  "children": [
+    {
+      "packages": [
+        "idna==3.4"
+      ],
+      "direct": [
+        "idna==3.4"
+      ],
+      "split_generation": 1,
+      "children": [
+        {
+          "packages": [
+            "certifi==2023.7.22"
+          ],
+          "direct": [
+            "certifi==2023.7.22"
+          ],
+          "split_generation": 2,
+          "children": [
+            {
+              "packages": [
+                "charset-normalizer==3.2.0"
+              ],
+              "direct": [
+                "charset-normalizer==3.2.0"
+              ],
+              "split_generation": 3,
+              "children": [
+                {
+                  "packages": [
+                    "urllib3==2.0.4"
+                  ],
+                  "direct": [
+                    "urllib3==2.0.4"
+                  ],
+                  "split_generation": 4,
+                  "children": [
+                    {
+                      "packages": [
+                        "requests==2.31.0"
+                      ],
+                      "direct": [
+                        "requests==2.31.0"
+                      ],
+                      "split_generation": 5,
+                      "children": [
+                        {
+                          "packages": [
+                            "packaging==23.1"
+                          ],
+                          "direct": [
+                            "packaging==23.1"
+                          ],
+                          "split_generation": 6,
+                          "children": [
+                            {
+                              "packages": [
+                                "markupsafe==2.1.3"
+                              ],
+                              "direct": [
+                                "markupsafe==2.1.3"
+                              ],
+                              "split_generation": 7,
+                              "children": [
+                                {
+                                  "packages": [
+                                    "jinja2==3.1.2"
+                                  ],
+                                  "direct": [
+                                    "jinja2==3.1.2"
+                                  ],
+                                  "split_generation": 8,
+                                  "children": [
+                                    {
+                                      "packages": [
+                                        "babel==2.12.1"
+                                      ],
+                                      "direct": [
+                                        "babel==2.12.1"
+                                      ],
+                                      "split_generation": 9,
+                                      "children": [
+                                        {
+                                          "packages": [
+                                            "pygments==2.16.1"
+                                          ],
+                                          "direct": [
+                                            "pygments==2.16.1"
+                                          ],
+                                          "split_generation": 10,
+                                          "children": [
+                                            {
+                                              "packages": [
+                                                "alabaster==0.7.13"
+                                              ],
+                                              "direct": [
+                                                "alabaster==0.7.13"
+                                              ],
+                                              "split_generation": 11,
+                                              "children": [
+                                                {
+                                                  "packages": [
+                                                    "imagesize==1.4.1"
+                                                  ],
+                                                  "direct": [
+                                                    "imagesize==1.4.1"
+                                                  ],
+                                                  "split_generation": 12,
+                                                  "children": [
+                                                    {
+                                                      "packages": [
+                                                        "snowballstemmer==2.2.0"
+                                                      ],
+                                                      "direct": [
+                                                        "snowballstemmer==2.2.0"
+                                                      ],
+                                                      "split_generation": 13,
+                                                      "children": [
+                                                        {
+                                                          "packages": [
+                                                            "sphinxcontrib-jsmath==1.0.1"
+                                                          ],
+                                                          "direct": [
+                                                            "sphinxcontrib-jsmath==1.0.1"
+                                                          ],
+                                                          "split_generation": 14,
+                                                          "children": [],
+                                                          "test_count": 132
+                                                        }
+                                                      ],
+                                                      "test_count": 0
+                                                    }
+                                                  ],
+                                                  "test_count": 0
+                                                }
+                                              ],
+                                              "test_count": 0
+                                            }
+                                          ],
+                                          "test_count": 2
+                                        }
+                                      ],
+                                      "test_count": 0
+                                    }
+                                  ],
+                                  "test_count": 0
+                                }
+                              ],
+                              "test_count": 0
+                            }
+                          ],
+                          "test_count": 6
+                        }
+                      ],
+                      "test_count": 91
+                    }
+                  ],
+                  "test_count": 0
+                }
+              ],
+              "test_count": 62
+            }
+          ],
+          "test_count": 20
+        },
+        {
+          "packages": [
+            "urllib3==1.26.12"
+          ],
+          "direct": [
+            "urllib3==1.26.12"
+          ],
+          "split_generation": 15,
+          "children": [
+            {
+              "packages": [
+                "certifi==2022.9.24"
+              ],
+              "direct": [
+                "certifi==2022.9.24"
+              ],
+              "split_generation": 16,
+              "children": [
+                {
+                  "packages": [
+                    "attrs==22.1.0"
+                  ],
+                  "direct": [
+                    "attrs==22.1.0"
+                  ],
+                  "split_generation": 17,
+                  "children": [
+                    {
+                      "packages": [
+                        "click==8.0.4"
+                      ],
+                      "direct": [
+                        "click==8.0.4"
+                      ],
+                      "split_generation": 18,
+                      "children": [
+                        {
+                          "packages": [
+                            "colorlog==6.7.0"
+                          ],
+                          "direct": [
+                            "colorlog==6.7.0"
+                          ],
+                          "split_generation": 19,
+                          "children": [],
+                          "test_count": 152
+                        }
+                      ],
+                      "test_count": 0
+                    }
+                  ],
+                  "test_count": 0
+                }
+              ],
+              "test_count": 0
+            }
+          ],
+          "test_count": 0
+        }
+      ],
+      "test_count": 5
+    }
+  ],
+  "test_count": 411
+}
