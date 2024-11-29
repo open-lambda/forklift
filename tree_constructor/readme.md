@@ -14,7 +14,7 @@ A brief explanation of the files in current directory produced by ReqBench:
 >
 > packages.json: the overhead of importing each top-level module in a Docker container, also disk usage, etc.
 
-Running the evaluation will require **filtered_workloads.json** and **packages.json** existed in current directory.
+Running the evaluation requires **filtered_workloads.json** and **packages.json** existed in current directory.
 
 # Re-measure the import overhead
 
