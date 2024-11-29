@@ -26,8 +26,8 @@ Another important reason for this re-run is to pre-install the packages in the w
 # Run the evaluation
 
 **ReqBench requirements on Go version**
->Our Python caller will call [ReqBench](tree_constructor/platform_adapter_go) implemented in Go to run workload. 
-[ReqBench](tree_constructor/platform_adapter_go) requires **go version 1.20 or higher**. 
+>Our Python caller will call [ReqBench](platform_adapter_go) implemented in Go to run workload. 
+[ReqBench](platform_adapter_go) requires **go version 1.20 or higher**. 
 While OpenLambda requires version 1.18. Please **just install version 1.20 or higher**.
 
 **OpenLambda branch**
