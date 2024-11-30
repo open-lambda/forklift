@@ -20,7 +20,7 @@ Running the evaluation requires **filtered_workloads.json** and **packages.json*
 
 packages.json, produced by Reqbench, contains the overhead of importing each top-level module in a Docker container. 
 
-For more accurate import overhead measurements, it is better to run "python3 deps_and_costs.py". It will re-measure the importing time in zygote environment.
+For more accurate import overhead measurements, it is better to run "python3 deps_and_costs.py". It will re-measure the importing time in OpenLambda.
 Another important reason for this re-run is to pre-install the packages in the workload, which will save a significant amount of time during the evaluation.
 
 # Run the evaluation
@@ -36,7 +36,7 @@ e.g. renaming tornado(to avoid version conflict), zygotes warmup, non-COW, no un
 
 Before running python scripts, **change the configurations (`ol_dir` and azure vm settings) in config.py**.
 
-To run the evaluation， execute `python3 run.py`. The results, including trees and timestamps (CSV), will be saved (overwritten) in `trials/tree_gen`. 
+To run the evaluation， run `python3 run.py`. The results, including trees and timestamps (CSV), will be saved (overwritten) in `trials/tree_gen`. 
 
 The plots can be found in `trees.ipynb` and `perf.ipynb`. To locate corresponding figures, search "# fig n" in the jupyter notebooks, where n is the figure number.
 
